@@ -1,0 +1,24 @@
+#navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(35, 45, 77);
+    margin: 0px -10px ;
+    margin-top: -10px;
+    padding: 15px 30px;
+    align-items: center;margin-bottom: 60px;
+
+}
+#navbar>div:nth-child(1){
+    font-size: 30px;
+    margin-left: 40px;
+    width: 30%;
+}
+
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
+#navbar>div{
+    color: white
+    
+}

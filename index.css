@@ -1,0 +1,47 @@
+#products{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap:15px;
+   
+}
+.like{
+    background-color: aliceblue;
+    color: rgb(255, 42, 42);
+    border: 0px;
+    border-radius: 50%;
+    padding: 5px 10px;
+    margin-left: 30px;
+}
+.like:hover{
+    background-color: rgb(255, 42, 42);
+    color: aliceblue;
+}
+#products>div{
+    text-align: center;
+    padding: 2px;
+    border-radius: 8px;
+    background-color: rgb(229, 236, 241);
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+#products>div:hover{
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+   
+}
+#products>div>img{
+    width: 100%;
+    border-radius: 8px;
+}
+.addcart{
+border: none;
+background-color: rgb(166, 247, 220);
+color: black;
+padding: 5px 15px;
+border-radius: 5px;
+}
+.addcart:hover{
+    background-color: rgb(49, 245, 92);
+    border-radius: 8px;
+}
+a:hover{
+    color: black;
+}

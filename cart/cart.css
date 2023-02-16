@@ -1,0 +1,19 @@
+#cart,#wish{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    width: 70%;
+    margin: auto;
+    margin-top: 20px;
+    gap: 30px;
+    justify-content: space-evenly;
+}
+#cart>div,#wish>div{
+    text-align: center;
+    padding: 2px;
+    border-radius: 9px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+}
+#cart>div>img,#wish>div>img{
+    width: 100%;
+    border-radius: 9px;
+}
